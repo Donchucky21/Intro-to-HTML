@@ -1,0 +1,23 @@
+On Vscode, after creating your html file, to allow vscode bring out the template for you, just input the symbol "!" and select the first option (Emmet abbr) and it will automatically outline the HTML template for you. For SUBLIME, just type <html and select the suggestion.
+
+h1 = is the first heading
+h2 = Second heading and so forth till 6th heading
+
+If you want to copy info on the current line to the next line, use "Alt + Shift + down arrow key"
+
+P tag is = paragraph to write paragraphs where we can add <b> for bold, <i> for italics
+
+ul tag = unordered list is used to list out items in an unorderly way. eg 
+
+<ul>
+ <li>First item</li>
+ <li>Second item</li>
+</ul>
+
+ol tag = ordered list. eg
+<ol>
+    <li>First item</li>
+     <li>Second item</li>
+</ol>
+
+img tag = to add image to your webpage. It looks like this <img src="" alt=""> where src is the source and alt= image description. To be able to add an image, we first need to have the image url or the path where the image is stored in our pc. To locate the image on our PC, inside the "" in the source we add a "./" and we will be able to find our relative path. eg <img src="./Assets/Images/google image.jpg" alt="">
